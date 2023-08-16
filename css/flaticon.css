@@ -2,7 +2,9 @@
   	Flaticon icon font: Flaticon
   	Creation date: 10/09/2018 08:41
   	*/
-@font-face {
+
+
+    /* @font-face {
   font-family: "Flaticon";
   src: url("../fonts/flaticon/font/Flaticon.eot");
   src: url("../fonts/flaticon/font/Flaticon.eot?#iefix") format("embedded-opentype"),
@@ -27,10 +29,10 @@
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
+  line-height: 1; */
 
   /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
+  /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
@@ -40,4 +42,4 @@
 .flaticon-diet:before { content: "\f103"; }
 .flaticon-medal:before { content: "\f104"; }
 .flaticon-laugh:before { content: "\f105"; }
-.flaticon-chef:before { content: "\f106"; }
+.flaticon-chef:before { content: "\f106"; } */

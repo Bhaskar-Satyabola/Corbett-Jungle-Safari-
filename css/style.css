@@ -8977,3 +8977,36 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+    .whats-app{
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 30px;
+      right: 15px;
+      background-color: rgba(89, 206, 114, 0.7);
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100;
+  }
+  .telephone{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 100px;
+    right: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+ 
+  .dots{display: inline;}
+  .more {display: none;}

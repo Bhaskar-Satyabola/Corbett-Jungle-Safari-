@@ -1,0 +1,26 @@
+body{
+    background-image:
+      url(../new-images/Our-Services-img/bg-img.jpg);
+  }
+  #title{
+    color:white;
+    text-align:center;
+  }
+  #description{
+    text-align:center;
+    color:white;
+    font-style:italic;
+  }
+  #survey-form{
+    background-color: rgba(87, 200, 77,0.6);
+    margin:20px 40px 20px 40px; 
+    color:white;
+    padding:20px 40px 20px 40px;
+  }
+  #name,#email,#age,#contact,#safariType,#chooseTiming,#comment,#submit,#date{
+  width:100%;
+  }
+  #submit{
+  background-color:green;
+  color:white;
+  }

@@ -296,3 +296,36 @@
 
 })(jQuery);
 
+function myFunction(e,val) {
+	e.preventDefault()
+	var dots = document.getElementsByClassName("dots");
+	var moreText = document.getElementsByClassName("more");
+	var btnText = document.getElementsByClassName("myBtn");
+
+  
+	// if (dots.style.display === "none") {
+	//   dots.style.display = "inline";
+	//   btnText.innerHTML = "Read more";
+	//   moreText.style.display = "none";
+	// } else {
+	//   dots.style.display = "none";
+	//   btnText.innerHTML = "Read less";
+	//   moreText.style.display = "inline";
+	// }
+	for(let i in moreText){
+		if(i==val){
+			if (dots[i].style.display === "none") {
+		dots[i].style.display = "inline";
+		btnText[i].innerHTML = "Read more";
+		   moreText[i].style.display = "none";
+	  } else {
+		dots[i].style.display = "none";
+		btnText[i].innerHTML = "Read less";
+		moreText[i].style.display = "inline";
+		  }
+
+		}
+	 }
+	
+
+  }
