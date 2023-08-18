@@ -8088,7 +8088,8 @@ h1, h2, h3, h4, h5,
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
+    transition: all 0.3s ease; 
+ }
   .staff:hover, .staff:focus {
     -webkit-box-shadow: 0px 3px 66px -24px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px 3px 66px -24px rgba(0, 0, 0, 0.2);
