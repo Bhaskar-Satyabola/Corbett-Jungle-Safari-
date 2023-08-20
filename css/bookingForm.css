@@ -1,6 +1,6 @@
 body{
     background-image:
-      url(../new-images/Our-Services-img/bg-img.jpg);
+      url(../new-images/Our-Services-img/bg-img.webp);
   }
   #title{
     color:white;
@@ -17,7 +17,7 @@ body{
     color:white;
     padding:20px 40px 20px 40px;
   }
-  #name,#email,#age,#contact,#safariType,#chooseTiming,#comment,#submit,#date{
+  #name,#email,#age,#contact,#safariType,#timing,#comment,#submit,#date{
   width:100%;
   }
   #submit{
